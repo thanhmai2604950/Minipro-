@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Thanh menu */
+.menu {
+position: fixed;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #333;
+color: white;
+background-size: 30%;
+padding: 10px 20px;
+}
+
+.logo {
+max-width: 30%;     
+}
+
+.headernav .headerlist {
+    list-style: none;
+    display: flex;
+}
+.headerlist .headeritem {
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content */
+
+.product {
+    display: flex;
+    gap: 45px;
+}
+.productimg1 {
+    margin-top: 140px;
+    margin-left: 45px;
+    max-width: 100%;
+    height: auto;
+}
+
+.productimg2 {
+ margin-top: 140px;
+ max-width: 100%;
+ height: auto
+}
+
+.productinfo {
+    width: 40%;
+    margin-top: 140px ;
+    height: 40%;
+}
+.productinfo p {
+    text-align: justify;
+    line-height: 1.6;
+}
+.productreturn {
+    max-width: 90%;
+    max-height: 50%;
+}
+.cart {
+background-color: #333 ;
+color: white;
+width: 100%; 
+padding: 14px 30px;
+font-size: 18px;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: transform 0.2s, background-color 0.3s ease;
+}
+.cart:hover {
+    background-color: #333333c1;
+    transform: scale(1.1);
+}
+/* footer */
+.footer {
+    margin-top: 40px;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.footer-tag {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+footer nav ul li {
+    list-style-type: none;
+    line-height: 2;
+}
+
+.end {
+  text-align: center;  
+}
